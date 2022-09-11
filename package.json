@@ -1,0 +1,18 @@
+{
+  "name": "generate_tags",
+  "version": "1.0.0",
+  "description": "Generate a bunch of png tags with the same html/css styling.",
+  "main": "generate.js",
+  "scripts": {
+    "generate": "node ./generate.js"
+  },
+  "author": "ciriousjoker",
+  "repository": {
+    "url": "https://github.com/ciriousjoker/generate_tags"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "handlebars": "^4.7.0",
+    "puppeteer": "^2.0.0"
+  }
+}
